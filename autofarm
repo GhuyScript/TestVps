@@ -915,7 +915,7 @@ local Tab = Window:MakeTab({
 Tab:AddToggle({
 	Name = "auto farm!",
 	Default = false,
-	Callback = function(Value)
-		print(Value)
+	Callback = function(CheckLevel)
+		print(CheckLevel)
 	end    
 })
