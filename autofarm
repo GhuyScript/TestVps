@@ -29,7 +29,13 @@ local Tabs = {
 
 
 --toggles
-
+Tab:AddToggle({
+	Name = "auto farm!",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
 
 
 
