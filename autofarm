@@ -878,17 +878,17 @@ local function MakeDraggable(topbarobject, object)
 	)
 end
 
-if game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Modules"):FindFirstChild("Quarterly Hub Kaitun") then
-    local Main = game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Modules"):FindFirstChild("Quarterly Hub Kaitun").Main
+if game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Modules"):FindFirstChild("Vair Hub Kaitun") then
+    local Main = game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Modules"):FindFirstChild("Vair Hub Kaitun").Main
 
     Main:TweenSize(UDim2.new(0,600,0,0),"Out","Back",0.4,true)
     wait(0.05)
-    game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Modules"):FindFirstChild("Quarterly Hub Kaitun"):Destroy()
+    game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Modules"):FindFirstChild("Vair Hub Kaitun"):Destroy()
 end
 
 local QuarterlyHubKaitun = Instance.new("ScreenGui")
 
-QuarterlyHubKaitun.Name = "Quarterly Hub Kaitun"
+QuarterlyHubKaitun.Name = "Vair Hub Kaitun"
 QuarterlyHubKaitun.Parent = game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Modules")
 QuarterlyHubKaitun.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -1012,7 +1012,7 @@ function library:Createlibrary()
     LogoBackground.BorderSizePixel = 0
     LogoBackground.Position = UDim2.new(0.0759493634, 0, -0.131578952, 0)
     LogoBackground.Size = UDim2.new(0, 212, 0, 215)
-    LogoBackground.Image = "rbxassetid://14572696504"
+    LogoBackground.Image = "rbxassetid://15659394959"
     LogoBackground.ImageColor3 = Color3.fromRGB(0, 25, 0)
 
     Logo.Name = "Logo"
@@ -1023,7 +1023,7 @@ function library:Createlibrary()
     Logo.BorderSizePixel = 0
     Logo.Position = UDim2.new(0.108499095, 0, 0, 0)
     Logo.Size = UDim2.new(0, 176, 0, 170)
-    Logo.Image = "rbxassetid://14572696504"
+    Logo.Image = "rbxassetid://15659394959"
 
     Label.Name = "Label"
     Label.Parent = Top2
@@ -1559,8 +1559,8 @@ function library:Createlibrary()
                     if Clone_1:IsA("Frame") then
                         local Clone_Fruit = Clone_1:Clone()
                         print(Clone_Fruit)
-                        if not game:GetService("CoreGui"):WaitForChild("RobloxGui"):WaitForChild("Modules"):WaitForChild("Quarterly Hub Kaitun").Main.PlayerUIMain2.ScrollingFrame:FindFirstChild(Clone_Fruit.Name) then
-                            Clone_Fruit.Parent = game:GetService("CoreGui"):WaitForChild("RobloxGui"):WaitForChild("Modules"):WaitForChild("Quarterly Hub Kaitun").Main.PlayerUIMain2.ScrollingFrame
+                        if not game:GetService("CoreGui"):WaitForChild("RobloxGui"):WaitForChild("Modules"):WaitForChild("Vair Hub Kaitun").Main.PlayerUIMain2.ScrollingFrame:FindFirstChild(Clone_Fruit.Name) then
+                            Clone_Fruit.Parent = game:GetService("CoreGui"):WaitForChild("RobloxGui"):WaitForChild("Modules"):WaitForChild("Vair Hub Kaitun").Main.PlayerUIMain2.ScrollingFrame
                             Clone_Fruit.Position = UDim2.new(0,0,0,0)
                         end
                     end
